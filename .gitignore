@@ -1,0 +1,25 @@
+attributes.txt
+out.hex
+variable_memory_usage.txt
+*.o
+*.exe
+*.swp
+
+# Mac Artifacts
+.DS_Store
+
+.gitattributes
+
+.idea/
+*.stackdump
+*.dSYM/
+
+# see also gitignore in bin, build and lib folders
+tmp
+tmp/
+
+#generated examples directory for linking library
+example/
+
+#IDE inserted
+CMakeLists.txt
