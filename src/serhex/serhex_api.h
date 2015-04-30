@@ -2,6 +2,7 @@
 #define _SERHEX_H_
 
 #include <termios.h> // POSIX terminal control definitions
+#include <stdint.h>
 
 int configure_port(int fd, speed_t st);
 int open_port(char *port);
