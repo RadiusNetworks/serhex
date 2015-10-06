@@ -60,6 +60,7 @@ clean-lib:
 prefix?=/usr/local
 
 install: $(CLI_TGT)
+	install -d $(prefix)/bin
 	install -m 0755 $(CLI_TGT) $(prefix)/bin
 
 uninstall:
